@@ -1,8 +1,56 @@
-<html>
-	<head>
-	</head>
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ar">
+<head>
 
-	<body>
-		<h1>Test Page Hello!</h1>
-	</body>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Atyab - Maher Muaiqly App </title>
+
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script type="text/javascript">		
+			function randombg()
+			{
+			  var random  = Math.floor(Math.random() * 6) + 0;
+			  var bigSize = ["url('imgs/bg1.png')",
+							 "url('imgs/bg2.png')",
+							 "url('imgs/bg3.png')",
+							 "url('imgs/bg4.png')",
+							 "url('imgs/bg5.png')",
+							 "url('imgs/bg6.png')"];
+				document.body.style.backgroundImage=bigSize[random];
+			}
+		</script>
+</head>
+<body onload="randombg()" class="text-center">
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column" id="OCover">
+<header class="masthead mb-auto">
+<div class="inner">
+<a class="masthead-brand" href="https://otogames.com"><img src="imgs/logo.png" alt="Logo" id="Logo"></a>
+<nav class="nav nav-masthead justify-content-center">
+<a class="nav-link active" href="https://otogames.com">Home</a>
+<a class="nav-link" href="https://otogames.com/About">About</a>
+<a class="nav-link" href="https://otogames.com/Contact">Contact</a>
+</nav>
+</div>
+</header>
+<main role="main" class="inner cover">
+<h1 class="cover-heading">Coming Soon ...</h1>
+</main>
+<footer class="mastfoot mt-auto">
+<div class="inner">
+<a href="https://twitter.com/oto_games" class="OSocial p-3" target="_blank"><i class="fa fa-lg fa-twitter-square fa-2x"></i></a>
+<a href="https://www.facebook.com/OTO-Games-106418997611374" class="OSocial p-3" target="_blank"><i class="fa fa-lg fa-facebook-square fa-2x"></i></a>
+<a href="https://www.youtube.com/channel/UCPdQwOWQvxMG3majplDo7Mg/" class="OSocial p-3" target="_blank"><i class="fa fa-lg fa fa-youtube-square fa-2x"></i></a>
+<a href="https://www.instagram.com/oto_games/" class="OSocial p-3" target="_blank"><i class="fa fa-lg fa-instagram fa-2x"></i></a>
+</div>
+</footer>
+</div>
+
+<script src="assets/js/jquery-3.4.1.slim.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+</body>
 </html>
